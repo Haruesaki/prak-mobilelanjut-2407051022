@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'columnWidget.dart';
-import 'rowWidget.dart';
 import 'firstWidget.dart';
+import 'form_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         primarySwatch: Colors.blue,
       ),
-      home: const FirstWidget()
+      home: FormWidget()
       // home: Scaffold(
       //   appBar: AppBar(
       //     title: const Text('Praktikum Mobile Lanjut'),
