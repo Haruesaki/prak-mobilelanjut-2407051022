@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'firstWidget.dart';
+// import 'column_widget.dart';
+// import 'row_widget.dart';
+// import 'first_widget.dart';
 import 'form_widget.dart';
 
 void main() {
@@ -13,20 +15,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Praktikum Mobile Lanjut',
-      theme : ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.deepPurple,
+        ),
         useMaterial3: true,
-        primarySwatch: Colors.blue,
       ),
-      home: FormWidget()
-      // home: Scaffold(
-      //   appBar: AppBar(
-      //     title: const Text('Praktikum Mobile Lanjut'),
-      //   ),
-      //   body: const Center(
-      //     child: Text('Halo Nama Saya Haruesaki'),
-      //   ),
-      // ),
+      home: const FormWidget(),
     );
   }
 }
