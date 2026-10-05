@@ -15,8 +15,8 @@ class FirstWidget extends StatelessWidget {
           children: [
             Image.asset(
               'assets/images/xd.jpeg',
-              width: 400,
-              height: 400,
+              width: 200,
+              height: 200,
             ),
             const SizedBox(height: 50),
             ElevatedButton(
