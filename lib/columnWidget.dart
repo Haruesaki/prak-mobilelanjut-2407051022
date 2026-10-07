@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ColumnWidget extends StatelessWidget {
-  const ColumnWidget({Key? key}) : super(key: key);
+  const ColumnWidget({super.key});
   
   @override
   Widget build(BuildContext context) {
