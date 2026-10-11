@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
+import 'home_page.dart';
 
-import 'osamakom.dart';
-
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -13,14 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'OSAMAKOM 2026 - FMIPA Unila',
-      theme: ThemeData(
-        useMaterial3: true,
-        fontFamily: 'PlusJakartaSans',
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF202482)),
-        scaffoldBackgroundColor: const Color(0xFFF5F6FA),
-      ),
-      home: const OsamakomPage(),
+      theme: ThemeData(colorSchemeSeed: Colors.indigo, useMaterial3: true),
+      home: const HomePage(),
     );
   }
 }
